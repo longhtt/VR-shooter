@@ -1,0 +1,21 @@
+﻿GLXtras.obj : error LNK2019: unresolved external symbol _glfwInit referenced in function "struct GLFWwindow * __cdecl InitGLFW(int,int,int,int,char const *,bool)" (?InitGLFW@@YAPAUGLFWwindow@@HHHHPBD_N@Z)
+GLXtras.obj : error LNK2019: unresolved external symbol _glfwWindowHint referenced in function "struct GLFWwindow * __cdecl InitGLFW(int,int,int,int,char const *,bool)" (?InitGLFW@@YAPAUGLFWwindow@@HHHHPBD_N@Z)
+GLXtras.obj : error LNK2019: unresolved external symbol _glfwCreateWindow referenced in function "struct GLFWwindow * __cdecl InitGLFW(int,int,int,int,char const *,bool)" (?InitGLFW@@YAPAUGLFWwindow@@HHHHPBD_N@Z)
+GLXtras.obj : error LNK2019: unresolved external symbol _glfwSetWindowPos referenced in function "struct GLFWwindow * __cdecl InitGLFW(int,int,int,int,char const *,bool)" (?InitGLFW@@YAPAUGLFWwindow@@HHHHPBD_N@Z)
+GLXtras.obj : error LNK2019: unresolved external symbol _glfwGetFramebufferSize referenced in function "double __cdecl `anonymous namespace'::InvertY(struct GLFWwindow *,double)" (?InvertY@?A0x99f11e7a@@YANPAUGLFWwindow@@N@Z)
+GLXtras.obj : error LNK2019: unresolved external symbol _glfwSetFramebufferSizeCallback referenced in function "void __cdecl RegisterResize(void (__cdecl*)(int,int))" (?RegisterResize@@YAXP6AXHH@Z@Z)
+GLXtras.obj : error LNK2019: unresolved external symbol _glfwGetKey referenced in function "bool __cdecl `anonymous namespace'::GetKey(int)" (?GetKey@?A0x99f11e7a@@YA_NH@Z)
+GLXtras.obj : error LNK2019: unresolved external symbol _glfwGetMouseButton referenced in function "void __cdecl `anonymous namespace'::MouseMove(struct GLFWwindow *,double,double)" (?MouseMove@?A0x99f11e7a@@YAXPAUGLFWwindow@@NN@Z)
+GLXtras.obj : error LNK2019: unresolved external symbol _glfwGetCursorPos referenced in function "class vec2 __cdecl MouseCoords(void)" (?MouseCoords@@YA?AVvec2@@XZ)
+GLXtras.obj : error LNK2019: unresolved external symbol _glfwSetKeyCallback referenced in function "void __cdecl RegisterKeyboard(void (__cdecl*)(int,bool,bool,bool))" (?RegisterKeyboard@@YAXP6AXH_N00@Z@Z)
+GLXtras.obj : error LNK2019: unresolved external symbol _glfwSetMouseButtonCallback referenced in function "void __cdecl RegisterMouseButton(void (__cdecl*)(float,float,bool,bool))" (?RegisterMouseButton@@YAXP6AXMM_N0@Z@Z)
+GLXtras.obj : error LNK2019: unresolved external symbol _glfwSetCursorPosCallback referenced in function "void __cdecl RegisterMouseMove(void (__cdecl*)(float,float,bool,bool))" (?RegisterMouseMove@@YAXP6AXMM_N0@Z@Z)
+GLXtras.obj : error LNK2019: unresolved external symbol _glfwSetScrollCallback referenced in function "void __cdecl RegisterMouseWheel(void (__cdecl*)(float))" (?RegisterMouseWheel@@YAXP6AXM@Z@Z)
+GLXtras.obj : error LNK2019: unresolved external symbol _glfwMakeContextCurrent referenced in function "struct GLFWwindow * __cdecl InitGLFW(int,int,int,int,char const *,bool)" (?InitGLFW@@YAPAUGLFWwindow@@HHHHPBD_N@Z)
+GLXtras.obj : error LNK2019: unresolved external symbol _glfwSwapInterval referenced in function "struct GLFWwindow * __cdecl InitGLFW(int,int,int,int,char const *,bool)" (?InitGLFW@@YAPAUGLFWwindow@@HHHHPBD_N@Z)
+GLXtras.obj : error LNK2019: unresolved external symbol _glfwGetProcAddress referenced in function "struct GLFWwindow * __cdecl InitGLFW(int,int,int,int,char const *,bool)" (?InitGLFW@@YAPAUGLFWwindow@@HHHHPBD_N@Z)
+1-Demo-Clear.obj : error LNK2019: unresolved external symbol _glfwWindowShouldClose referenced in function _main
+1-Demo-Clear.obj : error LNK2019: unresolved external symbol _glfwPollEvents referenced in function _main
+1-Demo-Clear.obj : error LNK2019: unresolved external symbol _glfwSwapBuffers referenced in function _main
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\lib\x86\glfw3.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\Users\longt\Code\VR Shooter game\Debug\VR Shooter game.exe : fatal error LNK1120: 19 unresolved externals

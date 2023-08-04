@@ -1,0 +1,7 @@
+﻿  VR-Demo-button3.cpp
+C:\Users\longt\Code\VR Shooter game\VR-Demo-button3.cpp(529,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\longt\Code\VR Shooter game\VR-Demo-button3.cpp(560,87): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\longt\Code\VR Shooter game\VR-Demo-button3.cpp(611,59): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\longt\Code\VR Shooter game\VR-Demo-button3.cpp(613,59): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\longt\Code\VR Shooter game\VR-Demo-button3.cpp(614,59): warning C4305: 'argument': truncation from 'double' to 'float'
+  VR Shooter game.vcxproj -> C:\Users\longt\Code\VR Shooter game\x64\Debug\VR Shooter game.exe
